@@ -2,9 +2,11 @@
     <!-- Base application theme. -->
     <style name="Theme.ProjectD1" parent="Theme.AppCompat.NoActionBar">
         <!-- Primary brand color. -->
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowTranslucentStatus">true</item>
         <item name="colorPrimary">@color/purple_700</item>
         <item name="colorPrimaryDark">#FAA9C4</item>
-        <item name="colorAccent">@color/teal_700</item>
+        <item name="colorAccent">@color/white</item>
         <!-- Customize your theme here. -->
     </style>
 </resources>

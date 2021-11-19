@@ -5,25 +5,35 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@drawable/pastel"
+    android:background="@drawable/bg"
     android:gravity="center"
     tools:context=".MainActivity">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="80dp"
         android:fontFamily="cursive"
         android:text="Solace"
-        android:textColor="@color/white"
+        android:textColor="#5A4A75"
+        android:textSize="90dp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="You are?"
+        android:fontFamily="serif-monospace"
+        android:textSize="20dp"
         android:textStyle="bold"
-        android:textSize="60dp"
-        android:layout_marginBottom="15dp"
-         />
+        android:textColor="#3E4571"
+        />
 
    <RadioGroup
        android:layout_width="wrap_content"
        android:layout_height="wrap_content"
-       android:orientation="vertical">
+       android:orientation="vertical"
+
+       >
 
        <RadioButton
            android:id="@+id/radDonor"
@@ -66,9 +76,18 @@
            android:fontFamily="serif"
            android:gravity="center"
            android:padding="16dp"
-           android:text="Employee"
+           android:text="Volunteer"
            android:textColor="@drawable/text_color"
            android:textStyle="bold" />
    </RadioGroup>
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif-monospace"
+        android:paddingTop="50dp"
+        android:text="A Virtual Act of Kindness"
+        android:textColor="#3E4571"
+        android:textSize="15dp"
+        android:textStyle="bold" />
 </LinearLayout>

@@ -4,23 +4,24 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/backgrounde"
+    android:background="@drawable/white"
     android:alpha="0.8"
     tools:context=".Employee_Login">
 
     <android.support.v7.widget.CardView
-        android:layout_margin="20dp"
-        android:elevation="10dp"
-        app:cardCornerRadius="14dp"
-        app:cardBackgroundColor="@color/cardview_shadow_start_color"
-        android:layout_gravity="center"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:elevation="10dp"
+        android:layout_gravity="center"
+        android:layout_margin="30dp"
+        app:cardBackgroundColor="#736C6C"
+        app:cardCornerRadius="14dp">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
+
             <EditText
                 android:id="@+id/aadhaar"
                 android:layout_width="match_parent"
@@ -28,8 +29,7 @@
                 android:layout_margin="20dp"
                 android:ems="10"
                 android:hint="Enter your aadhaar number or email"
-                android:inputType="textAutoComplete"
-                />
+                android:inputType="textAutoComplete" />
 
             <EditText
                 android:id="@+id/password"
@@ -38,8 +38,8 @@
                 android:layout_margin="20dp"
                 android:ems="10"
                 android:hint="Enter your password"
-                android:inputType="textPassword"
-                />
+                android:inputType="textPassword" />
+
             <Button
                 android:id="@+id/logButton"
                 android:layout_width="wrap_content"
@@ -47,19 +47,20 @@
                 android:layout_gravity="center"
                 android:layout_margin="20dp"
                 android:background="@drawable/layout_shape3"
-                android:text="Login"
-                />
+                android:text="Login" />
+
             <TextView
                 android:id="@+id/textRegister"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:textSize="19dp"
-                android:text="Not a member? Register"
                 android:padding="15dp"
+                android:text="Not a member? Register"
                 android:textColor="#E1F4F6"
-                />
+                android:textSize="19dp" />
 
         </LinearLayout>
     </android.support.v7.widget.CardView>
+
+
 </LinearLayout>
